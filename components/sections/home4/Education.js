@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 export default function Education() {
@@ -14,23 +15,23 @@ export default function Education() {
       <div className="auto-container">
         <div className="content_block_three">
           <div className="content-box p_relative d_block">
-            <h2>Looking for Quality <span>Education In</span> Abroad?</h2>
+            <h2>Looking for Quality <span>Business In</span> Abroad?</h2>
             <p>Where did this incorrect belief that everyone dislikes praising happiness come from? Explain to me how this erroneous theory ended up being devised.</p>
             <ul className="country-list">
               <li>
-                <div className="flag"><img src="assets/images/icons/flag-1.png" alt="" /></div>
-                <span>United Kingdom</span>
+                <div className="flag"><Image src="/assets/images/icons/flag-6.png" alt="" width={50} height={50} /></div>
+                <span>United States</span>
               </li>
               <li>
-                <div className="flag"><img src="assets/images/icons/flag-2.png" alt="" /></div>
+                <div className="flag"><img src="assets/images/icons/flag-2.png" alt="" width={50} height={50}/></div>
                 <span>Canada</span>
               </li>
               <li>
-                <div className="flag"><img src="assets/images/icons/flag-3.png" alt="" /></div>
-                <span>China</span>
+                <div className="flag"><img src="assets/images/icons/flag-8.png" alt="" width={50} height={50}/></div>
+                <span>Germany</span>
               </li>
               <li>
-                <div className="flag"><img src="assets/images/icons/flag-4.png" alt="" /></div>
+                <div className="flag"><img src="assets/images/icons/flag-4.png" alt="" width={50} height={50}/></div>
                 <span>Australia</span>
               </li>
             </ul>

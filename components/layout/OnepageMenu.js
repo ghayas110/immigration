@@ -14,13 +14,7 @@ export default function Menu() {
 
             <ul className="navigation clearfix" >
                 <li className="current dropdown"><Link href="/">Home</Link>
-                    <ul>
-                    <li><Link href="/">Home Page 01</Link></li>
-                        <li><Link href="/index-2">Home Page 02</Link></li>
-                        <li><Link href="/index-3">Home Page 03</Link></li>
-                        <li><Link href="/index-4">Home Page 04</Link></li>
-                        <li><Link href="/onepage">OnePage Home</Link></li>
-                    </ul>
+                  
                 </li>
                 <li><Link href="#about">About</Link></li>
                 <li><Link href="#countries">Countries</Link></li>

@@ -14,7 +14,9 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
             <div className="outer-container">
                 <div className="outer-box">
                 <div className="logo-box">
-                    <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                    <figure className="logo"><Link href="/">
+                    <img src="assets/images/logo.png" alt="" width="128" height="44" />
+                    </Link></figure>
                 </div>
                 <div className="menu-area clearfix">
                     <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
@@ -42,7 +44,9 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
       <div className="auto-container">
         <div className="outer-box">
           <div className="logo-box">
-            <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+            <figure className="logo"><Link href="/">
+            <img src="assets/images/logo.png" alt="" width="128" height="44" />
+            </Link></figure>
           </div>
           <div className="menu-area clearfix">
           <nav className="main-menu navbar-expand-md navbar-light clearfix">

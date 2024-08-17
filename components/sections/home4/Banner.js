@@ -19,7 +19,7 @@ export default function Banner()  {
                 <span className="sub-title">Visa Categories</span>
                 <h2>A modern immigration firm with a <span>principled</span> attitude.</h2>
               </div>
-              <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both experienced financial advisors, as well as beings who want to break into the industry.</p>
+              <p>Ahiraf has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both experienced financial advisors, as well as beings who want to break into the industry.</p>
               <div className="btn-box">
                 <Link href="index-4" className="theme-btn btn-two"><span>More Details</span></Link>
                 <a onClick={() => setOpen(true)} className="video-btn lightbox-image"><i className="icon-36"></i>Watch The Video</a>
@@ -33,7 +33,7 @@ export default function Banner()  {
               <div className="text-box">
                 <div className="icon-box"><i className="icon-31"></i></div>
                 <span>Any Questions? Call us</span>
-                <h3><Link href="tel:12345678900">(+12) 34567 8900</Link></h3>
+                <h3><Link href="tel:+923179650314">+923179650314</Link></h3>
               </div>
             </div>
           </div>

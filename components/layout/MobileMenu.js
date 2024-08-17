@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -33,7 +34,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
         <nav className="menu-box">
           <div className="nav-logo">
             <Link href="/">
-              <img src="/assets/images/logo-2.png" alt="" />
+              <Image src="/assets/images/logo-2.png" width={100} height={100} alt="" />
             </Link>
           </div>
           <div className="menu-outer">

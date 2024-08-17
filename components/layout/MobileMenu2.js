@@ -29,7 +29,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                 <nav className="menu-box">
                     <div className="nav-logo">
                         <Link href="/">
-                            <img src="assets/images/logo.png" alt="" />
+                            <img src="assets/images/logo.png" alt="" width="128" height="44" />
                         </Link>
                     </div>
 
@@ -39,13 +39,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                             <ul className="navigation clearfix">
                                 <li className={isActive.key === 1 ? "dropdown current" : "dropdown"}>
                                     <Link href="/" onClick={handleMobileMenu}>Home</Link>
-                                    <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                                    <li><Link href="/" onClick={handleMobileMenu}>Home Page 01</Link></li>
-                                    <li><Link href="/index-2"onClick={handleMobileMenu}>Home Page 02</Link></li>
-                                    <li><Link href="/index-3"onClick={handleMobileMenu}>Home Page 03</Link></li>
-                                    <li><Link href="/index-4"onClick={handleMobileMenu}>Home Page 04</Link></li>
-                                    <li><Link href="/onepage"onClick={handleMobileMenu}>OnePage Home</Link></li>
-                                    </ul>
+                                
                                     <div className={isActive.key === 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}>
                                         <span className="fa fa-angle-right" />
                                     </div>

@@ -1,38 +1,26 @@
 import Layout from "@/components/layout/Layout"
-import About from "@/components/sections/home1/About"
-import Banner from "@/components/sections/home1/Banner"
-import Features from "@/components/sections/home1/Features"
-import News from "@/components/sections/home1/News"
-import Countries from "@/components/sections/home1/Countries"
-import Dream from "@/components/sections/home1/Dream"
-import Coaching from "@/components/sections/home1/Coaching"
-import Chooseus from "@/components/sections/home1/Chooseus"
-import Team from "@/components/sections/home1/Team"
-import Education from "@/components/sections/home1/Education"
-import Passport from "@/components/sections/home1/Passport"
-import Clients from "@/components/sections/home1/Clients"
-import Visa from "@/components/sections/home1/Visa"
-
-
+import Banner from "@/components/sections/home4/Banner"
+import Feature from "@/components/sections/home4/Feature"
+import About from "@/components/sections/home4/About"
+import Countries from "@/components/sections/home4/Countries"
+import Skills from "@/components/sections/home4/Skills"
+import Countries1 from "@/components/sections/home4/Countries1"
+import Team from "@/components/sections/home4/Team"
+import Education from "@/components/sections/home4/Education"
+import News from "@/components/sections/home4/News"
 export default function Home() {
-
     return (
-        <>
-            <Layout headerStyle={1} footerStyle={1}>
-                <Banner />
-                <Visa />
-                <About />
-                <Features />
-                <Dream />
-                <Countries />
-                <Coaching />
-                <Chooseus />
-                <Team />
-                <Education />
-                <Passport />
-                <Clients />
-                <News />
-            </Layout>
-        </>
+        <Layout headerStyle={3} footerStyle={1}>
+            <Banner />
+            <Feature />
+            <About />
+            <Countries />
+            <Skills />
+            <Countries1 />
+         
+            <Education />
+            <News />
+        </Layout>
+
     )
 }

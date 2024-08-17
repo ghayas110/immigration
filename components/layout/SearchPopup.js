@@ -6,7 +6,9 @@ export default function SearchPopup({ isPopup, handlePopup }) {
             <div id="search-popup" className={`search-popup ${isPopup ? "popup-visible" : ""}`}>
                 <div className="popup-inner">
                     <div className="upper-box clearfix">
-                    <figure className="logo-box pull-left"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                    <figure className="logo-box pull-left"><Link href="/">
+                    <img src="assets/images/logo.png" alt="" />        <img src="assets/images/logo.png" alt="" width="128" height="44" />
+                       </Link></figure>
                         <div className="close-search pull-right" onClick={handlePopup}>
                             <span className="fa fa-times"></span>
                         </div>

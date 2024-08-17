@@ -54,7 +54,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={3} breadcrumbTitle="China">
+            <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="China">
                 {/* countries section */}
                 <section className="countries-details p_relative">
             <div className="auto-container">
@@ -64,7 +64,7 @@ export default function Home() {
                             <div className="sidebar-widget category-widget">
                                 <ul className="category-list clearfix">
                                     <li><Link href="countries-details">United States</Link></li>
-                                    <li><Link href="countries-details-2">United Kingdom</Link></li>
+                                    <li><Link href="countries-details-2">Germany</Link></li>
                                     <li><Link href="countries-details-3">Canada</Link></li>
                                     <li><Link href="countries-details-4" className="current">China</Link></li>
                                     <li><Link href="countries-details-5">Bahamas</Link></li>
