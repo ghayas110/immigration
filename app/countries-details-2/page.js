@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
       <>
-          <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Germany">
+          <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Germany">
               {/* countries section */}
               <section className="countries-details p_relative">
                   <div className="auto-container">

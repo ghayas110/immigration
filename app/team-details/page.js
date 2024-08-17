@@ -13,7 +13,7 @@ const ProgressBar = ({ label, percent }) => (
 export default function Team() {
   return (
     <>
-    <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Team Details"> 
+    <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Team Details"> 
     <section className="team-details p_relative">
       <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-68.png)" }}></div>
       <div className="auto-container">

@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={3} breadcrumbTitle="Blog Grid">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Grid">
                 <div>
                     {/*sidebar */}
                     <section className="sidebar-page-container blog-standard p_relative">

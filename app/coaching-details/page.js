@@ -28,7 +28,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={3} breadcrumbTitle="IELTS Coaching">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="IELTS Coaching">
                 {/* coaching details section */}
                 <section className="coaching-details p_relative">
             <div className="auto-container">

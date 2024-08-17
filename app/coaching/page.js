@@ -29,7 +29,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={3} breadcrumbTitle="Coaching Overview">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Coaching Overview">
                 {/* dream-section */}
                 <section className="dream-style-three p_relative">
                 <div className="auto-container">

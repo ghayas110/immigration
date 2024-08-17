@@ -55,7 +55,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Visa Overview">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Visa Overview">
                 {/* about section */}
                 <section className="about-style-five p_relative">
     <div className="auto-container">

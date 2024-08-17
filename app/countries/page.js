@@ -31,7 +31,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Countries Overview">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Countries Overview">
                 {/* countries section */}
                 <section className="countries-style-four sec-pad">
                 <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-48.png)' }}></div>

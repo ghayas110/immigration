@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
       <>
-          <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Canada">
+          <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Canada">
               {/* countries section */}
               <section className="countries-details p_relative">
                   <div className="auto-container">

@@ -29,7 +29,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="About Us">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="About Us">
                 {/* about-section */}
                 <section className="about-style-three about-page p_relative">
       <div className="pattern-layer">

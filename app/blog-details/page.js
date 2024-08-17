@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={3} breadcrumbTitle="Team Details">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Team Details">
                 {/* sidebar-page-container */}
                 <section className="sidebar-page-container blog-standard p_relative">
       <div className="auto-container">

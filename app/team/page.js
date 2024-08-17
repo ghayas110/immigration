@@ -4,7 +4,7 @@ import Layout from "@/components/layout/Layout"
 export default function Team() {
   return (
     <>
-    <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Our Team"> 
+    <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our Team"> 
     <section className="team-section team-page-section p_relative centred">
       <div className="auto-container">
         <div className="row clearfix">

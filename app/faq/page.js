@@ -22,7 +22,7 @@ export default function WhyChooseUs() {
     }
     return (
         <> 
-        <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Faq"> 
+        <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Faq"> 
 
          {/* help-style */}
          <section className="help-section alternat-2 p_relative">
