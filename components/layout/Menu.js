@@ -33,7 +33,19 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li className="dropdown"><Link href="/visa">Visa</Link>
-                  
+                <ul> 
+                            
+                         
+                                                  <li><Link href="visa-details">Australia SubClass 189</Link></li>
+                                                  <li><Link href="visa-details-2" >Australia SubClass 199</Link></li>
+                                                  <li><Link href="visa-details-3">Australia SubClass 491</Link></li>  
+                                                  <li><Link href="visa-details-4">E2 Treaty Visa</Link></li>
+                                                  <li><Link href="visa-details-5">EB1 A </Link></li>
+                                                  <li><Link href="visa-details-6">EB2 NIW </Link></li>
+                                                  <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
+
+                                
+                            </ul>
                 </li>
                 {/* Projects */}
                

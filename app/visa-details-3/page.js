@@ -28,7 +28,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Residence Visas">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Residence Visas">
                 {/* visa details section */}
                 <section className="visa-details p_relative">
                 <div className="auto-container">
@@ -37,12 +37,13 @@ export default function Home() {
                         <div className="visa-sidebar default-sidebar">
                         <div className="sidebar-widget category-widget">
                             <ul className="category-list clearfix">
-                            <li><Link href="visa-details">Business Visa</Link></li>
-                            <li><Link href="visa-details-2">Working Visas</Link></li>
-                            <li><Link href="visa-details-3" className="current">Residence Visas</Link></li>
-                            <li><Link href="visa-details-4">Student Visas</Link></li>
-                            <li><Link href="visa-details-5">Spouse/Family Visas</Link></li>
-                            <li><Link href="visa-details-6">Tourist Visas</Link></li>
+                            <li><Link href="visa-details">Australia SubClass 189</Link></li>
+                            <li><Link href="visa-details-2"  >Australia SubClass 190</Link></li>
+                                                  <li><Link href="visa-details-3" className="current">Australia SubClass 491</Link></li>  
+                                                  <li><Link href="visa-details-4">E2 Treaty Visa</Link></li>
+                                                  <li><Link href="visa-details-5">EB1 A </Link></li>
+                                                  <li><Link href="visa-details-6">EB2 NIW </Link></li>
+                                                  <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
                             </ul>
                         </div>
                         <div className="sidebar-widget travel-widget">
@@ -83,86 +84,97 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-lg-8 col-md-12 col-sm-12 content-side">
-                        <div className="visa-details-content">
-                        <div className="content-one mb_60">
-                            <div className="text mb_45">
-                            <h2>Business Visa</h2>
-                            <p>Sed gravida nisl a porta tincidunt. Integer aliquam nisi sit amet magna suscipit, fermentum mattis erat rutrum. Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor tempus feugiat dolor and lacinia. Vivamus ac ultricies ex. Donec lacinia lacus libero.</p>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-17.jpg" alt="" /></figure>
-                            <div className="lower-text">
-                            <p>A foreign national traveling to the United States to conduct temporary business needs a visitor visa (B-1) unless qualifying for entry under the Visa Waiver Program.</p>
-                            </div>
-                        </div>
-                        <div className="content-two mb_35">
-                            <div className="row clearfix">
-                            <div className="col-lg-6 col-md-6 col-sm-12 left-column">
-                                <div className="left-content">
-                                <h3>Morente reiterates rule on proper wearing of uniform</h3>
-                                <p>In a memorandum issued on Wednesday, Morente stated that the BI has been receiving complaints about officials and employees who are not wearing their complete uniform during their tour of duty.</p>
-                                <p>Stands for courtesy, accountability, responsibility, efficiency and service. “It is high time that law enforcement be professionalized,” said Morente. “We can implement our laws and policies, but as public servants, we are also expected to be courteous and responsible,” he added.</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12 right-column">
-                                <div className="right-content">
-                                <h3>Examples of temporary business include:</h3>
-                                <ul className="list-item clearfix">
-                                    <li><Link href="visa-details">1. Attending business meetings or consultations <i className="icon-9"></i></Link></li>
-                                    <li><Link href="visa-details">2. Attending a business convention or conference <i className="icon-9"></i></Link></li>
-                                    <li><Link href="visa-details">3. Negotiating contracts <i className="icon-9"></i></Link></li>
-                                </ul>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="content-three">
-                            <div className="row clearfix">
-                            <div className="col-lg-4 col-md-6 col-sm-12 single-column">
-                                <div className="single-item">
-                                <figure className="image-box"><img src="assets/images/resource/visa-13.jpg" alt="" /></figure>
-                                <div className="lower-content">
-                                    <h3>Visitor Visa B</h3>
-                                    <p>Stands for courtesy, accountability, responsibility, efficiency and service.</p>
-                                    <ul className="list-item clearfix">
-                                    <li><Link href="visa-details">1. Overview</Link></li>
-                                    <li><Link href="visa-details">2. How to Apply</Link></li>
-                                    <li><Link href="visa-details">3. Fees</Link></li>
-                                    </ul>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 single-column">
-                                <div className="single-item">
-                                <figure className="image-box"><img src="assets/images/resource/visa-14.jpg" alt="" /></figure>
-                                <div className="lower-content">
-                                    <h3>Visa Waiver Program</h3>
-                                    <p>Stands for courtesy, accountability, responsibility, efficiency and service.</p>
-                                    <ul className="list-item clearfix">
-                                    <li><Link href="visa-details">1. Overview</Link></li>
-                                    <li><Link href="visa-details">2. How to Apply</Link></li>
-                                    <li><Link href="visa-details">3. Fees</Link></li>
-                                    </ul>
-                                </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 single-column">
-                                <div className="single-item">
-                                <figure className="image-box"><img src="assets/images/resource/visa-15.jpg" alt="" /></figure>
-                                <div className="lower-content">
-                                    <h3>Bermudian Citizens</h3>
-                                    <p>Stands for courtesy, accountability, responsibility, efficiency and service.</p>
-                                    <ul className="list-item clearfix">
-                                    <li><Link href="visa-details">1. Overview</Link></li>
-                                    <li><Link href="visa-details">2. How to Apply</Link></li>
-                                    <li><Link href="visa-details">3. Fees</Link></li>
-                                    </ul>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
+    <div className="visa-details-content">
+        <div className="content-one mb_60">
+            <div className="text mb_45">
+                <h2>Australia Subclass 491 Visa</h2>
+                <p>The Subclass 491 Skilled Work Regional (Provisional) Visa is a temporary visa for skilled workers who want to live and work in regional Australia. It offers a pathway to permanent residency and is aimed at individuals who can contribute to the regional workforce and fill skill shortages in designated areas of Australia.</p>
+            </div>
+            <figure className="image-box"><img src="assets/images/resource/visa-17.jpg" alt="Australia Subclass 491" /></figure>
+            <div className="lower-text">
+                <p>This visa has gained popularity among migrants due to its relatively accessible requirements and opportunities for eventual permanent residency.</p>
+            </div>
+        </div>
+        
+        <div className="content-two mb_35">
+            <div className="row clearfix">
+                <div className="col-lg-6 col-md-6 col-sm-12 left-column">
+                    <div className="left-content">
+                        <h3>Key Benefits of the Subclass 491 Visa</h3>
+                        <p>
+                            - Long-term Residency: The visa is valid for 5 years.<br/>
+                            - Pathway to Permanent Residency: After 3 years of meeting income and residence requirements, you can apply for permanent residency through the Subclass 191 Visa.<br/>
+                            - Work in Regional Areas: Tap into job opportunities in regional Australia.<br/>
+                            - Access to Medicare: You can access Australia’s public healthcare system.<br/>
+                            - Include Family Members: You can include family members in your application.
+                        </p>
+                    </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-12 right-column">
+                    <div className="right-content">
+                        <h3>Eligibility Criteria for Subclass 491 Visa</h3>
+                        <ul className="list-item clearfix">
+                            <li>Nomination or Sponsorship: By a state/territory government or family member in regional Australia.</li>
+                            <li>Skills Assessment: Required for your nominated occupation listed on the skilled occupation list.</li>
+                            <li>Points Test: Minimum of 65 points required.</li>
+                            <li>Age Limit: Under 45 years of age.</li>
+                            <li>English Proficiency: Competent English language skills required.</li>
+                            <li>Health and Character Requirements.</li>
+                            <li>Commitment to Living in Regional Australia.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div className="content-three">
+            <div className="row clearfix">
+                <div className="col-lg-4 col-md-6 col-sm-12 single-column">
+                    <div className="single-item">
+                        <figure className="image-box"><img src="assets/images/resource/visa-13.jpg" alt="Visa Application Process" /></figure>
+                        <div className="lower-content">
+                            <h3>The Application Process</h3>
+                            <p>
+                                - Submit an Expression of Interest (EOI).<br/>
+                                - State or Family Sponsorship.<br/>
+                                - Invitation to Apply.<br/>
+                                - Visa Application.<br/>
+                                - Processing and Grant.
+                            </p>
                         </div>
                     </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 single-column">
+                    <div className="single-item">
+                        <figure className="image-box"><img src="assets/images/resource/visa-14.jpg" alt="Permanent Residency Pathway" /></figure>
+                        <div className="lower-content">
+                            <h3>Permanent Residency Pathway: Subclass 191 Visa</h3>
+                            <p>
+                                After holding the 491 Visa for 3 years and meeting income requirements, you can apply for the Subclass 191 Visa, which grants permanent residency.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 single-column">
+                    <div className="single-item">
+                        <figure className="image-box"><img src="assets/images/resource/visa-15.jpg" alt="Contact Us" /></figure>
+                        <div className="lower-content">
+                            <h3>Contact Us for Guidance</h3>
+                            <p>
+                                If you’re considering applying for the Subclass 491 Visa and need professional guidance, feel free to contact us. We provide expert consultation to help you navigate the application process smoothly.
+                            </p>
+                            <ul className="list-item clearfix">
+                                <li><Link href="visa-details">Start your journey today!</Link></li>
+                                <li><Link href="visa-details">Contact us for expert advice</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                     </div>
                 </div>
                 </section>

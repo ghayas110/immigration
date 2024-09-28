@@ -17,7 +17,7 @@ export default function Home() {
             <Countries />
             <Skills />
             <Countries1 />
-         
+         <Team/>
             <Education />
             <News />
         </Layout>
