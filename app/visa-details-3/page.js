@@ -44,6 +44,8 @@ export default function Home() {
                                                   <li><Link href="visa-details-5">EB1 A </Link></li>
                                                   <li><Link href="visa-details-6">EB2 NIW </Link></li>
                                                   <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
+                                                  <li><Link href="visa-details-8" >Canada Express Entry </Link></li>
+                                                  <li><Link href="visa-details-9" >Canada Provincial Nominee Program </Link></li>
                             </ul>
                         </div>
                         <div className="sidebar-widget travel-widget">
@@ -59,28 +61,7 @@ export default function Home() {
                             </div>
                             </div>
                         </div>
-                        <div className="sidebar-widget download-widget">
-                            <div className="widget-content">
-                            <div className="icon-shape"><img src="assets/images/icons/icon-15.png" alt="" /></div>
-                            <h3>Annual Report / <br />Online Appointment</h3>
-                            <ul className="download-list clearfix">
-                                <li>
-                                <Link href="visa-details">
-                                    <i className="icon-50"></i>
-                                    <p>Application Form</p>
-                                    <span>450kb</span>
-                                </Link>
-                                </li>
-                                <li>
-                                <Link href="visa-details">
-                                    <i className="icon-50"></i>
-                                    <p>Application Form</p>
-                                    <span>450kb</span>
-                                </Link>
-                                </li>
-                            </ul>
-                            </div>
-                        </div>
+                     
                         </div>
                     </div>
                     <div className="col-lg-8 col-md-12 col-sm-12 content-side">
@@ -90,7 +71,7 @@ export default function Home() {
                 <h2>Australia Subclass 491 Visa</h2>
                 <p>The Subclass 491 Skilled Work Regional (Provisional) Visa is a temporary visa for skilled workers who want to live and work in regional Australia. It offers a pathway to permanent residency and is aimed at individuals who can contribute to the regional workforce and fill skill shortages in designated areas of Australia.</p>
             </div>
-            <figure className="image-box"><img src="assets/images/resource/visa-17.jpg" alt="Australia Subclass 491" /></figure>
+            <figure className="image-box"><img src="/assets/images/AustraliaSubclass491/111.png" alt="Australia Subclass 491" /></figure>
             <div className="lower-text">
                 <p>This visa has gained popularity among migrants due to its relatively accessible requirements and opportunities for eventual permanent residency.</p>
             </div>
@@ -131,7 +112,7 @@ export default function Home() {
             <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-13.jpg" alt="Visa Application Process" /></figure>
+                        <figure className="image-box"><img src="/assets/images/AustraliaSubclass491/000.png" alt="Visa Application Process" /></figure>
                         <div className="lower-content">
                             <h3>The Application Process</h3>
                             <p>
@@ -146,7 +127,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-14.jpg" alt="Permanent Residency Pathway" /></figure>
+                        <figure className="image-box"><img src="/assets/images/AustraliaSubclass491/3333.png" alt="Permanent Residency Pathway" /></figure>
                         <div className="lower-content">
                             <h3>Permanent Residency Pathway: Subclass 191 Visa</h3>
                             <p>
@@ -157,7 +138,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-15.jpg" alt="Contact Us" /></figure>
+                        <figure className="image-box"><img src="/assets/images/AustraliaSubclass190/555.png" alt="Contact Us" /></figure>
                         <div className="lower-content">
                             <h3>Contact Us for Guidance</h3>
                             <p>

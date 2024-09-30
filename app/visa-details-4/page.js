@@ -28,7 +28,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="E2 Treaty Investor Visa">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="E2 Treaty Investor Visa">
                 {/* visa details section */}
                 <section className="visa-details p_relative">
                 <div className="auto-container">
@@ -44,6 +44,8 @@ export default function Home() {
                                                   <li><Link href="visa-details-5">EB1 A </Link></li>
                                                   <li><Link href="visa-details-6">EB2 NIW </Link></li>
                                                   <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
+                                                  <li><Link href="visa-details-8" >Canada Express Entry </Link></li>
+                                                  <li><Link href="visa-details-9" >Canada Provincial Nominee Program </Link></li>
                             </ul>
                         </div>
                         <div className="sidebar-widget travel-widget">
@@ -69,7 +71,7 @@ export default function Home() {
                 <h2>E2 Treaty Investor Visa</h2>
                 <p>The E2 Treaty Investor Visa is a non-immigrant visa that allows individuals from certain treaty countries to invest in and actively manage a business within the United States. Designed for individuals looking to start or expand a business in the U.S., this visa offers significant benefits to eligible investors.</p>
             </div>
-            <figure className="image-box"><img src="assets/images/resource/visa-19.jpg" alt="E2 Treaty Investor Visa" /></figure>
+            <figure className="image-box"><img src="/assets/images/USAE-2TreatyVisa/000.png" alt="E2 Treaty Investor Visa" /></figure>
             <div className="lower-text">
                 <p>In this guide, we'll explore the eligibility requirements, benefits, and application process for the E2 Visa, a fantastic opportunity for entrepreneurs from countries with which the U.S. maintains a treaty of commerce and navigation.</p>
             </div>
@@ -107,7 +109,7 @@ export default function Home() {
             <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-13.jpg" alt="Visa Application Process" /></figure>
+                        <figure className="image-box"><img src="/assets/images/USAE-2TreatyVisa/investor-visa-application.jpg" alt="Visa Application Process" /></figure>
                         <div className="lower-content">
                             <h3>The E2 Visa Application Process</h3>
                             <p>
@@ -121,7 +123,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-14.jpg" alt="E2 Visa Benefits" /></figure>
+                        <figure className="image-box"><img src="/assets/images/USAE-2TreatyVisa/e-2-visa.jpg" alt="E2 Visa Benefits" /></figure>
                         <div className="lower-content">
                             <h3>Faster Processing Time</h3>
                             <p>
@@ -132,7 +134,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-15.jpg" alt="Contact Us for Assistance" /></figure>
+                        <figure className="image-box"><img src="/assets/images/USAE-2TreatyVisa/investment-capital.jpg" alt="Contact Us for Assistance" /></figure>
                         <div className="lower-content">
                             <h3>Contact Us for Assistance</h3>
                             <p>

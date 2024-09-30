@@ -43,6 +43,8 @@ export default function Menu() {
                                                   <li><Link href="visa-details-5">EB1 A </Link></li>
                                                   <li><Link href="visa-details-6">EB2 NIW </Link></li>
                                                   <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
+                                                  <li><Link href="visa-details-8" >Canada Express Entry </Link></li>
+                                                  <li><Link href="visa-details-9" >Canada Provincial Nominee Program </Link></li>
 
                                 
                             </ul>

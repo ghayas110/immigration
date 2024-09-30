@@ -44,6 +44,8 @@ export default function Home() {
                                                   <li><Link href="visa-details-5">EB1 A </Link></li>
                                                   <li><Link href="visa-details-6">EB2 NIW </Link></li>
                                                   <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
+                                                  <li><Link href="visa-details-8" >Canada Express Entry </Link></li>
+                                                  <li><Link href="visa-details-9" >Canada Provincial Nominee Program </Link></li>
                             </ul>
                         </div>
                         <div className="sidebar-widget travel-widget">
@@ -71,7 +73,7 @@ export default function Home() {
 
                 <p>The Subclass 189 visa, also known as the Skilled Independent Visa, is one of the most sought-after visas for individuals wishing to immigrate to Australia. This visa allows skilled workers to live and work permanently in Australia without requiring sponsorship from an employer, a state, or a family member. It offers a direct route to permanent residency, making it an attractive option for professionals worldwide.</p>
             </div>
-            <figure className="image-box"><img src="assets/images/resource/visa-12.jpg" alt="Subclass 189 Visa" /></figure>
+            <figure className="image-box"><img src="/assets/images/AustraliaSubclass189/Picture5.png" alt="Subclass 189 Visa" /></figure>
             <div className="lower-text">
                 <p>In this blog, we'll explore the Subclass 189 visa, its eligibility criteria, and why it's a great choice for skilled workers looking to build a future in Australia.</p>
             </div>
@@ -113,7 +115,7 @@ export default function Home() {
             <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-13.jpg" alt="Visa Application Process" /></figure>
+                        <figure className="image-box"><img src="/assets/images/AustraliaSubclass189/222.png" alt="Visa Application Process" /></figure>
                         <div className="lower-content">
                             <h3>Application Process for Subclass 189 Visa</h3>
                             <p>
@@ -128,7 +130,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-14.jpg" alt="Visa Processing Times" /></figure>
+                        <figure className="image-box"><img src="/assets/images/AustraliaSubclass189/444.png" alt="Visa Processing Times" /></figure>
                         <div className="lower-content">
                             <h3>Processing Time for Subclass 189 Visa</h3>
                             <p>
@@ -141,7 +143,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-15.jpg" alt="Why Choose Subclass 189" /></figure>
+                        <figure className="image-box"><img src="/assets/images/AustraliaSubclass189/Picture6.png" alt="Why Choose Subclass 189" /></figure>
                         <div className="lower-content">
                             <h3>Why Choose the Subclass 189 Visa?</h3>
                             <p>

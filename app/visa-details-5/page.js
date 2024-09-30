@@ -44,6 +44,8 @@ export default function Home() {
                                                   <li><Link href="visa-details-5" className="current">EB1 A </Link></li>
                                                   <li><Link href="visa-details-6">EB2 NIW </Link></li>
                                                   <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
+                                                  <li><Link href="visa-details-8" >Canada Express Entry </Link></li>
+                                                  <li><Link href="visa-details-9" >Canada Provincial Nominee Program </Link></li>
                             </ul>
                         </div>
                         <div className="sidebar-widget travel-widget">
@@ -69,7 +71,7 @@ export default function Home() {
                 <h2>EB-1A Visa: Extraordinary Ability</h2>
                 <p>The EB-1A (Employment-Based First Preference) visa is a popular immigration option for individuals with extraordinary abilities in their field. This visa allows top professionals to secure a green card in the U.S. without the need for employer sponsorship. It is a great choice for those who want to pursue opportunities in the U.S. independently.</p>
             </div>
-            <figure className="image-box"><img src="assets/images/resource/visa-18.jpg" alt="EB-1A Visa" /></figure>
+            <figure className="image-box"><img src="/assets/images/EB-1A/Picture4.png" alt="EB-1A Visa" /></figure>
             <div className="lower-text">
                 <p>In this guide, we'll explore who qualifies for the EB-1A visa, the eligibility criteria, and how to navigate the application process to secure a green card through extraordinary ability.</p>
             </div>
@@ -116,7 +118,7 @@ export default function Home() {
             <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-13.jpg" alt="Application Process" /></figure>
+                        <figure className="image-box"><img src="/assets/images/EB-1A/Picture2.png" alt="Application Process" /></figure>
                         <div className="lower-content">
                             <h3>EB-1A Visa Application Process</h3>
                             <p>
@@ -129,7 +131,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-14.jpg" alt="Eligibility Challenges" /></figure>
+                        <figure className="image-box"><img src="/assets/images/EB-1A/Capture.png" alt="Eligibility Challenges" /></figure>
                         <div className="lower-content">
                             <h3>Common Challenges</h3>
                             <p>
@@ -142,7 +144,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-15.jpg" alt="Contact Us for Help" /></figure>
+                        <figure className="image-box"><img src="/assets/images/EB-1A/Picture3.png" alt="Contact Us for Help" /></figure>
                         <div className="lower-content">
                             <h3>Contact Us for Assistance</h3>
                             <p>

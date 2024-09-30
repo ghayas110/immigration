@@ -44,6 +44,9 @@ export default function Home() {
                                                   <li><Link href="visa-details-5">EB1 A </Link></li>
                                                   <li><Link href="visa-details-6">EB2 NIW </Link></li>
                                                   <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
+                                                  <li><Link href="visa-details-8" >Canada Express Entry </Link></li>
+                                                  <li><Link href="visa-details-9" >Canada Provincial Nominee Program </Link></li>
+                                                  
                             </ul>
                         </div>
                         <div className="sidebar-widget travel-widget">
@@ -71,7 +74,7 @@ export default function Home() {
           Australia's Subclass 190 Skilled Nominated Visa is a popular pathway for skilled workers looking to settle permanently in Australia. This visa offers an attractive option for those who want to contribute to the Australian economy and are seeking the opportunity to live, work, and study in the country indefinitely.
         </p>
       </div>
-      <figure className="image-box"><img src="assets/images/resource/visa-16.jpg" alt="Subclass 190 Visa" /></figure>
+      <figure className="image-box"><img src="/assets/images/AustraliaSubclass190/Picture7.png" alt="Subclass 190 Visa" /></figure>
       <div className="lower-text">
         <p>
           This visa requires a nomination from an Australian state or territory and allows you to live, work, and study anywhere in Australia on a permanent basis, sponsor eligible relatives, and access Medicare.
@@ -109,7 +112,7 @@ export default function Home() {
       <div className="row clearfix">
         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
           <div className="single-item">
-            <figure className="image-box"><img src="assets/images/resource/visa-13.jpg" alt="Visa Application Process" /></figure>
+            <figure className="image-box"><img src="/assets/images/AustraliaSubclass190/666.png" alt="Visa Application Process" /></figure>
             <div className="lower-content">
               <h3>Application Process</h3>
               <ul className="list-item clearfix">
@@ -122,7 +125,7 @@ export default function Home() {
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
           <div className="single-item">
-            <figure className="image-box"><img src="assets/images/resource/visa-14.jpg" alt="Health and Character Requirements" /></figure>
+            <figure className="image-box"><img src="/assets/images/AustraliaSubclass190/555.png" alt="Health and Character Requirements" /></figure>
             <div className="lower-content">
               <h3>Health and Character Requirements</h3>
               <p>Applicants must meet Australia's health and character standards by undergoing medical examinations and providing police clearance certificates.</p>
@@ -131,7 +134,7 @@ export default function Home() {
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
           <div className="single-item">
-            <figure className="image-box"><img src="assets/images/resource/visa-15.jpg" alt="Pathway to Citizenship" /></figure>
+            <figure className="image-box"><img src="/assets/images/AustraliaSubclass190/Picture8.png" alt="Pathway to Citizenship" /></figure>
             <div className="lower-content">
               <h3>Pathway to Citizenship</h3>
               <p>After fulfilling residency and other conditions, Subclass 190 visa holders may become eligible for Australian citizenship.</p>

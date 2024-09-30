@@ -44,6 +44,8 @@ export default function Home() {
                                                   <li><Link href="visa-details-5">EB1 A </Link></li>
                                                   <li><Link href="visa-details-6"  >EB2 NIW </Link></li>
                                                   <li><Link href="visa-details-7" className="current">UK Innovator Visa </Link></li>
+                                                  <li><Link href="visa-details-8" >Canada Express Entry </Link></li>
+                                                  <li><Link href="visa-details-9" >Canada Provincial Nominee Program </Link></li>
                             </ul>
                         </div>
                         <div className="sidebar-widget travel-widget">
@@ -69,9 +71,9 @@ export default function Home() {
                 <h2>UK Innovator Visa</h2>
                 <p>The UK Innovator Visa offers an exciting opportunity for experienced entrepreneurs looking to establish or run a business in the UK. It is designed for innovative thinkers with unique business ideas that are new to the UK market. If you’re an entrepreneur interested in relocating to the UK, the Innovator Visa could be the key to unlocking your business potential in one of the world's most dynamic markets.</p>
             </div>
-            <figure className="image-box"><img src="assets/images/resource/visa-20.jpg" alt="UK Innovator Visa" /></figure>
+            <figure className="image-box"><img src="/assets/images/UKInnovatorvisa/hjk.jpg" alt="UK Innovator Visa" /></figure>
             <div className="lower-text">
-                <p>This guide covers the eligibility criteria, application process, and benefits of the UK Innovator Visa, a great option for experienced businesspeople with innovative ideas.</p>
+                <p>This guide covers the eligibt6ggfuria, application process, and benefits of the UK Innovator Visa, a great option for experienced businesspeople with innovative ideas.</p>
             </div>
         </div>
 
@@ -108,7 +110,7 @@ export default function Home() {
             <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-13.jpg" alt="Application Process" /></figure>
+                        <figure className="image-box"><img src="/assets/images/UKInnovatorvisa/Cap.png" alt="Application Process" /></figure>
                         <div className="lower-content">
                             <h3>Application Process for UK Innovator Visa</h3>
                             <p>
@@ -123,7 +125,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-14.jpg" alt="Visa Extension and Cost" /></figure>
+                        <figure className="image-box"><img src="/assets/images/UKInnovatorvisa/u.jpeg" alt="Visa Extension and Cost" /></figure>
                         <div className="lower-content">
                             <h3>Visa Extension and Costs</h3>
                             <p>
@@ -136,7 +138,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                     <div className="single-item">
-                        <figure className="image-box"><img src="assets/images/resource/visa-15.jpg" alt="Contact Us for Assistance" /></figure>
+                        <figure className="image-box"><img src="/assets/images/UKInnovatorvisa/m.webp" alt="Contact Us for Assistance" /></figure>
                         <div className="lower-content">
                             <h3>Contact Us for Assistance</h3>
                             <p>
