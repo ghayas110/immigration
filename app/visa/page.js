@@ -58,21 +58,22 @@ export default function Home() {
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Visa Overview">
                 {/* about section */}
                 <section className="about-style-five p_relative">
-    <div className="auto-container">
-        <div className="row clearfix">
-            <div className="col-lg-7 col-md-12 col-sm-12 image-column">
-            <figure className="image-box"><img src="assets/images/resource/about-8.jpg" alt="" /></figure>
-            </div>
-            <div className="col-lg-5 col-md-12 col-sm-12 content-column">
-                <div className="content-box">
-                    <h3>Enforcement of Proper Uniform for Immigration Officers</h3>
-                    <p>In a recent directive, Commissioner Morente emphasized the importance of proper uniform compliance among immigration officers. The initiative is a response to complaints received about officers not adhering to uniform standards during their duty hours.</p>
-                    <p>“Our immigration officers must always be in complete uniform, with nameplates and IDs visible at all times,” Morente stated. “This is part of our ongoing commitment to public service excellence through the BI CARES project,” he added.</p>
-                    <p>The BI CARES project focuses on enhancing the quality of public service through the core values of courtesy, accountability, responsibility, efficiency, and service. Morente added, “As law enforcers, professionalism is key. While we uphold the law, we must also exemplify courteous and responsible behavior.”</p>
-                </div>
+                <div className="auto-container">
+    <div className="row clearfix">
+        <div className="col-lg-7 col-md-12 col-sm-12 image-column">
+            <figure className="image-box"><img src="assets/images/EB-2NIW/EB-2.png" alt="Visa Consultants" /></figure>
+        </div>
+        <div className="col-lg-5 col-md-12 col-sm-12 content-column">
+            <div className="content-box">
+                <h3>Comprehensive Visa Consultation Services</h3>
+                <p>At Visa Consultants, we specialize in providing expert guidance for individuals and businesses navigating the complexities of visa applications. Whether you're seeking a tourist visa, work permit, or permanent residency, our experienced team is here to assist you every step of the way.</p>
+                <p>We ensure that all your documentation is accurate and submitted on time, significantly improving your chances of success. Our services cover a wide range of visa types, including family reunification, business visas, student visas, and more.</p>
+                <p>With our commitment to transparency and efficiency, we aim to make the visa process as smooth and stress-free as possible. Let us help you achieve your travel and immigration goals with personalized solutions tailored to your unique situation.</p>
             </div>
         </div>
     </div>
+</div>
+
 </section>
 
                  {/*about details end*/}
@@ -85,131 +86,90 @@ export default function Home() {
             <h2>Translation Services Inc. offers comprehensive <br /> immigration services.</h2>
         </div>
         <Swiper {...swiperOptions} className="three-item-carousel owl-carousel owl-theme owl-nav-none">
-            <SwiperSlide className="slide-item p_relative">
-                <div className="visa-block-two">
-                    <div className="inner-box">
-                        <div className="static-content">
-                            <div className="content-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-5.png" alt="Student Visa Icon" /></div>
-                                <h3><Link href="visa-details-4">Student Visa</Link></h3>
-                                <p>Get your student visa to pursue higher education abroad. Our services assist you in preparing the necessary documents and application.</p>
-                                <div className="link-box">
-                                    <Link href="visa-details-4">Read More</Link>
-                                </div>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-4.jpg" alt="Student Visa" /></figure>
-                        </div>
-                        <div className="overlay-content">
-                            <div className="content-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-5.png" alt="Student Visa Icon" /></div>
-                                <h3><Link href="visa-details-4">Student Visa</Link></h3>
-                                <div className="link-box">
-                                    <Link href="visa-details-4">Read More</Link>
-                                </div>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-8.jpg" alt="Student Visa Overlay" /></figure>
+    <SwiperSlide className="slide-item p_relative">
+        <div className="visa-block-two">
+            <div className="inner-box">
+                <div className="static-content">
+                    <div className="content-box">
+                        <div className="icon-box"><img src="assets/images/USAE-2TreatyVisa/000.png" alt="EB2 Treaty Visa Icon" /></div>
+                        <h3><Link href="visa-details-3">EB2 Treaty Visa</Link></h3>
+                        <p>The EB2 Treaty Visa provides a pathway to residence abroad. Our team assists with processing, paperwork, and legal requirements to secure your long-term stay.</p>
+                        <div className="link-box">
                         </div>
                     </div>
+                    <figure className="image-box"><img src="assets/images/EB-2NIW/EB-2.png" alt="EB2 Treaty Visa" /></figure>
                 </div>
-            </SwiperSlide>
-            <SwiperSlide className="slide-item p_relative">
-                <div className="visa-block-two">
-                    <div className="inner-box">
-                        <div className="static-content">
-                            <div className="content-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-6.png" alt="Residence Visa Icon" /></div>
-                                <h3><Link href="visa-details-3">Residence Visa</Link></h3>
-                                <p>Secure your residence visa to live abroad long-term. We help with application processing, paperwork, and other legal requirements.</p>
-                                <div className="link-box">
-                                    <Link href="visa-details-3">Read More</Link>
-                                </div>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-5.jpg" alt="Residence Visa" /></figure>
-                        </div>
-                        <div className="overlay-content">
-                            <div className="content-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-6.png" alt="Residence Visa Icon" /></div>
-                                <h3><Link href="visa-details-3">Residence Visa</Link></h3>
-                                <div className="link-box">
-                                    <Link href="visa-details-3">Read More</Link>
-                                </div>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-9.jpg" alt="Residence Visa Overlay" /></figure>
+                <div className="overlay-content">
+                    <div className="content-box">
+                        <div className="icon-box"><img src="assets/images/EB-2NIW/Eb2.jpg" alt="EB2 Treaty Visa Icon" /></div>
+                        <h3><Link href="visa-details-3">EB2 Treaty Visa</Link></h3>
+                        <div className="link-box">
                         </div>
                     </div>
+                    <figure className="image-box"><img src="assets/images/EB-2NIW/Eb--2.jpg" alt="EB2 Treaty Visa Overlay" /></figure>
                 </div>
-            </SwiperSlide>
-            <SwiperSlide className="slide-item p_relative">
-                <div className="visa-block-two">
-                    <div className="inner-box">
-                        <div className="static-content">
-                            <div className="content-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-7.png" alt="Business Visa Icon" /></div>
-                                <h3><Link href="visa-details">Business Visa</Link></h3>
-                                <p>Expand your business internationally with a business visa. We assist in navigating the application process for business travelers.</p>
-                                <div className="link-box">
-                                    <Link href="visa-details">Read More</Link>
-                                </div>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-6.jpg" alt="Business Visa" /></figure>
-                        </div>
-                        <div className="overlay-content">
-                            <div className="content-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-7.png" alt="Business Visa Icon" /></div>
-                                <h3><Link href="visa-details">Business Visa</Link></h3>
-                                <div className="link-box">
-                                    <Link href="visa-details">Read More</Link>
-                                </div>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-10.jpg" alt="Business Visa Overlay" /></figure>
+            </div>
+        </div>
+    </SwiperSlide>
+    
+    <SwiperSlide className="slide-item p_relative">
+        <div className="visa-block-two">
+            <div className="inner-box">
+                <div className="static-content">
+                    <div className="content-box">
+                        <div className="icon-box"><img src="assets/images/EB-1A/Picture3.png" alt="EB1A Visa Icon" /></div>
+                        <h3><Link href="visa-details">EB1A Visa</Link></h3>
+                        <p>The EB1A Visa is designed for individuals seeking to expand their business internationally. We assist with all necessary documentation and visa application steps.</p>
+                        <div className="link-box">
                         </div>
                     </div>
+                    <figure className="image-box"><img src="assets/images/EB-1A/Picture4.png" alt="EB1A Visa" /></figure>
                 </div>
-            </SwiperSlide>
-            <SwiperSlide className="slide-item p_relative">
-                <div className="visa-block-two">
-                    <div className="inner-box">
-                        <div className="static-content">
-                            <div className="content-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-8.png" alt="Tourist Visa Icon" /></div>
-                                <h3><Link href="visa-details-6">Tourist Visa</Link></h3>
-                                <p>Explore new countries with a tourist visa. Our experts guide you through the application process for a stress-free experience.</p>
-                                <div className="link-box">
-                                    <Link href="visa-details-6">Read More</Link>
-                                </div>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-7.jpg" alt="Tourist Visa" /></figure>
-                        </div>
-                        <div className="overlay-content">
-                            <div className="content-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-8.png" alt="Tourist Visa Icon" /></div>
-                                <h3><Link href="visa-details-6">Tourist Visa</Link></h3>
-                                <div className="link-box">
-                                    <Link href="visa-details-6">Read More</Link>
-                                </div>
-                            </div>
-                            <figure className="image-box"><img src="assets/images/resource/visa-11.jpg" alt="Tourist Visa Overlay" /></figure>
+                <div className="overlay-content">
+                    <div className="content-box">
+                        <div className="icon-box"><img src="assets/images/EB-1A/Capture.png" alt="EB1A Visa Icon" /></div>
+                        <h3><Link href="visa-details">EB1A Visa</Link></h3>
+                        <div className="link-box">
                         </div>
                     </div>
+                    <figure className="image-box"><img src="assets/images/EB-2NIW/Eb2.jpg" alt="EB1A Visa Overlay" /></figure>
                 </div>
-            </SwiperSlide>
-        </Swiper>
+            </div>
+        </div>
+    </SwiperSlide>
+    
+    <SwiperSlide className="slide-item p_relative">
+        <div className="visa-block-two">
+            <div className="inner-box">
+                <div className="static-content">
+                    <div className="content-box">
+                        <div className="icon-box"><img src="assets/images/EB-2NIW/Eb-2.png" alt="EB2-NIW Visa Icon" /></div>
+                        <h3><Link href="visa-details-6">EB2 NIW Visa</Link></h3>
+                        <p>The EB2-NIW Visa offers a path to permanent residency for professionals with advanced degrees. Our experts guide you through every step of the application process.</p>
+                        <div className="link-box">
+                        </div>
+                    </div>
+                    <figure className="image-box"><img src="assets/images/EB-2NIW/fy.png" alt="EB2-NIW Visa" /></figure>
+                </div>
+                <div className="overlay-content">
+                    <div className="content-box">
+                        <div className="icon-box"><img src="assets/images/EB-2NIW/EB--2.jpg" alt="EB2-NIW Visa Icon" /></div>
+                        <h3><Link href="visa-details-6">EB2-NIW Visa</Link></h3>
+                        <div className="link-box">
+                        </div>
+                    </div>
+                    <figure className="image-box"><img src="assets/images/EB-2NIW/Eb2.png" alt="EB2-NIW Visa Overlay" /></figure>
+                </div>
+            </div>
+        </div>
+    </SwiperSlide>
+</Swiper>
+
     </div>
 </section>
 
                  {/*visa   end*/}
-                 <section className="testimonial-style-two pb_150">
-                    <div className="auto-container">
-                        <div className="sec-title centred mb_60">
-                        <span className="sub-title">Testimonial</span>
-                        <h2>What people say <br />about us</h2>
-                        </div>
-                        <div className="content-box">
-                        {/*Theme Carousel*/}
-                        <TestmonialSlider1 />                        
-                    </div>
-                        </div>
-                    </section>
+               
                                                 
 
                             </Layout>
