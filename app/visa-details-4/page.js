@@ -28,7 +28,7 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="E2 Treaty Investor Visa">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="E2 Treaty Investor Visa">
                 {/* visa details section */}
                 <section className="visa-details p_relative">
                 <div className="auto-container">
