@@ -17,7 +17,7 @@ export default function Dream() {
                 <h2>Get the Right Help</h2>
               </div>
               <div className="text mb_25">
-              <p>With over two decades of experience, we have become a leading firm in immigration consulting, helping individuals and families achieve their dreams of relocating overseas. We specialize in visa applications, overseas education consulting, and admissions to top-ranked universities worldwide. Our personalized approach ensures that every client receives tailored advice, guidance, and support through every step of their journey.</p>
+              <p>With over 5 of experience, we have become a leading firm in immigration consulting, helping individuals and families achieve their dreams of relocating overseas. We specialize in visa applications, overseas education consulting, and admissions to top-ranked universities worldwide. Our personalized approach ensures that every client receives tailored advice, guidance, and support through every step of their journey.</p>
               </div>
               <ul className="list-item p_relative clearfix mb_50">
                 <li><a href="/">1. Entering & Leaving From Country <i className="icon-9"></i></a></li>

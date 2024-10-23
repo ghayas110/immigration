@@ -12,7 +12,7 @@ import Dream from "@/components/sections/home3/Dream"
 import Coaching from "@/components/sections/home3/Coaching"
 export default function Home() {
     return (
-        <Layout headerStyle={3} footerStyle={1}>
+        <Layout headerStyle={1} footerStyle={1}>
             <Banner />
             <Feature />
             <About />

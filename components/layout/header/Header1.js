@@ -13,9 +13,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
         <div className="top-inner">
           <div className="top-left">
             <ul className="info clearfix">
-              <li><i className="icon-1"></i><Link href="mailto:info@yourmail.com">info@yourmail.com</Link></li>
-              <li><i className="icon-2"></i>12 Queen Park, LA, USA</li>
-              <li><i className="icon-3"></i>Mon _ Sat: 9.00 to 18.00</li>
+              <li><i className="icon-1"></i><Link href="mailto:support@ahiraf.com">support@ahiraf.com</Link></li>
+              <li><i className="icon-2"></i>Office No. 301, Building No. 56-B Commercial Area A, DHA Phase 2</li>
+              <li><i className="icon-3"></i> Mon - Sat: 10 AM - 6 PM</li>
             </ul>
           </div>
           <div className="top-right">
@@ -25,16 +25,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
               <li><Link href="/"><i className="icon-6"></i></Link></li>
               <li><Link href="/"><i className="icon-7"></i></Link></li>
             </ul>
-            <div className="search-form">
-              <form action="/" method="post">
-                <div className="form-group">
-                  <input type="search" name="search-field" placeholder="Search ..." required />
-                  <button type="submit"><i className="icon-8"></i></button>
-                </div>
-              </form>
-            </div>
+         
             <div className="btn-box">
-              <Link href="/"><span>Appointment</span></Link>
+              <Link href="/contact"><span>Appointment</span></Link>
             </div>
           </div>
         </div>
@@ -64,9 +57,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
             </nav>
           </div>
           <div className="support-box">
-            <figure className="image-box"><img src="assets/images/resource/support-1.jpg" alt="" /></figure>
+            <figure className="image-box"><img src="assets/images/shape/h.png" alt="" /></figure>
             <span>Enquiries</span>
-            <Link href="tel:188845678901">+1-888-456-78-901</Link>
+            <Link href="tel:+923179650314">+92 317 9650314</Link>
           </div>
         </div>
       </div>
@@ -91,9 +84,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
         </nav>
           </div>
           <div className="support-box">
-            <figure className="image-box"><img src="assets/images/resource/support-1.jpg" alt="" /></figure>
-            <span>Enquiries</span>
-            <Link href="tel:188845678901">+1-888-456-78-901</Link>
+          <figure className="image-box"><img src="assets/images/shape/h.png" alt="" /></figure>
+          <span>Enquiries</span>
+          <Link href="tel:+923179650314">+92 317 9650314</Link>
           </div>
         </div>
       </div>

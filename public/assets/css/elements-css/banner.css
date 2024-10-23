@@ -265,7 +265,7 @@
   text-align: center;
   font-size: 16px;
   color: var(--white-color);
-  background: var(--secondary-color);
+  background: var(--main-color);
   cursor: pointer;
   transition: all 500ms ease;
 }

@@ -75,7 +75,7 @@ export default function Banner() {
                             <div className="experience-inner">
                             
                             </div>
-                            <h2>From Passport <span>to Permenent</span> Applications</h2>
+                            <h2>From Application <span>to Visa</span> Filing</h2>
                             <p>Ahiraf has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both experienced financial advisors, as well as beings who want to break into the industry.</p>
                             <div className="btn-box">
                                 <Link href="/visa" className="theme-btn btn-one"><span>More Details</span></Link>

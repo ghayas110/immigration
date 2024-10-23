@@ -22,7 +22,7 @@ export default function About()  {
                                     <h2>Your Trusted Partner in Immigration and Overseas Education</h2>
                                     </div>
                                     <div className="text mb_45">
-                  <p>With over two decades of experience, we have become a leading firm in immigration consulting, helping individuals and families achieve their dreams of relocating overseas. We specialize in visa applications, overseas education consulting, and admissions to top-ranked universities worldwide. Our personalized approach ensures that every client receives tailored advice, guidance, and support through every step of their journey.</p>
+                  <p>With over 5 of experience, we have become a leading firm in immigration consulting, helping individuals and families achieve their dreams of relocating overseas. We specialize in visa applications, overseas education consulting, and admissions to top-ranked universities worldwide. Our personalized approach ensures that every client receives tailored advice, guidance, and support through every step of their journey.</p>
                   <p>Our services extend beyond visa processing; we provide thorough consulting to address each client’s unique needs, ensuring success whether it's for business, education, or personal relocation.</p>
                 </div>
                                
