@@ -17,7 +17,7 @@ export default function About() {
                 <figure className="image image-1"><img src="assets/images/resource/about-6.jpg" alt="Immigration Consulting Experience" /></figure>
                 <figure className="image image-2"><img src="assets/images/resource/about-7.jpg" alt="Client Success Stories" /></figure>
                 <div className="text-box">
-                  <h2>20 <span>+</span></h2>
+                  <h2>5 <span>+</span></h2>
                   <h3>Years of Excellence</h3>
                 </div>
               </div>

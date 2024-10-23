@@ -35,59 +35,50 @@ export default function Banner() {
         <>
            <section className="banner-section p_relative">
       <div className="pattern-layer">
-        <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-1.png)" }}></div>
+        <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape3.jpg)" }}></div>
         <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-2.png)" }}></div>
-        <div className="pattern-3" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
         <div className="pattern-4" style={{ backgroundImage: "url(assets/images/shape/shape-4.png)" }}></div>
       </div>
                 <Swiper {...swiperOptions} className="banner-carousel owl-theme owl-carousel owl-dots-none">                    
                     <SwiperSlide className="slide-item p_relative">
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
                   <div className="auto-container">
+                  <div className="experience-inner">
+                             
+                             </div>
                     <div className="content-box">
-                    <div className="experience-inner">
-                                <figure className="logo-imgag"><img src="assets/images/icons/logo-1.png" alt="" /></figure>
-                                <div className="text">30 Years</div>
-                                <span>Experience</span>
-                            </div>
-                            <h2>Study In <span>Recognized</span> Universities!...</h2>
-                            <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
+                
+                            <h2>Best <span>Immigration Consultant </span> in Pakistan</h2>
+                            <p>Ahiraf has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both experienced financial advisors, as well as beings who want to break into the industry.</p>
                             <div className="btn-box">
-                                <Link href="/" className="theme-btn btn-one"><span>More Details</span></Link>
+                                <Link href="/visa" className="theme-btn btn-one"><span>More Details</span></Link>
                             </div>
                     </div>
                   </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="content-box">
                             <div className="experience-inner">
-                                <figure className="logo-imgag"><img src="assets/images/icons/logo-1.png" alt="" /></figure>
-                                <div className="text">30 Years</div>
-                                <span>Experience</span>
+                             
                             </div>
-                            <h2>Study In <span>Recognized</span> Universities!...</h2>
-                            <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
+                            <h2>Leading  <span>EB2NIW Consultant</span> in Pakistan</h2>
+                            <p>Ahiraf has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both experienced financial advisors, as well as beings who want to break into the industry.</p>
                             <div className="btn-box">
-                                <Link href="/" className="theme-btn btn-one"><span>More Details</span></Link>
+                                <Link href="/visa" className="theme-btn btn-one"><span>More Details</span></Link>
                             </div>
                         </div> 
                     </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                    <figure className="image-layer"><img src="assets/images/banner/banner-img-1.png" alt="" /></figure>
                     <div className="auto-container">
                         <div className="content-box">
                             <div className="experience-inner">
-                                <figure className="logo-imgag"><img src="assets/images/icons/logo-1.png" alt="" /></figure>
-                                <div className="text">30 Years</div>
-                                <span>Experience</span>
+                            
                             </div>
-                            <h2>Study In <span>Recognized</span> Universities!...</h2>
-                            <p>MCS has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both.</p>
+                            <h2>From Passport <span>to Permenent</span> Applications</h2>
+                            <p>Ahiraf has been recruiting and prepping talented professionals for over twenty years. We provide a unique value proposition to both experienced financial advisors, as well as beings who want to break into the industry.</p>
                             <div className="btn-box">
-                                <Link href="/" className="theme-btn btn-one"><span>More Details</span></Link>
+                                <Link href="/visa" className="theme-btn btn-one"><span>More Details</span></Link>
                             </div>
                         </div> 
                     </div>

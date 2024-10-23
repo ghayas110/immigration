@@ -4,7 +4,7 @@ export default function Dream() {
   return (
     <section className="dream-style-two sec-pad p_relative">
       <div className="outer-container clearfix">
-        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/dream-bg-2.jpg)' }}></div>
+        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/shape/shape9.jpg)' }}></div>
         <div className="content-column">
           <div className="pattern-layer">
             <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-51.png)' }}></div>
@@ -17,7 +17,7 @@ export default function Dream() {
                 <h2>Get the Right Help</h2>
               </div>
               <div className="text mb_25">
-                <p>Where did this incorrect belief that everyone dislikes praising happiness come from? Explain to me how this erroneous theory ended up being devised.</p>
+              <p>With over two decades of experience, we have become a leading firm in immigration consulting, helping individuals and families achieve their dreams of relocating overseas. We specialize in visa applications, overseas education consulting, and admissions to top-ranked universities worldwide. Our personalized approach ensures that every client receives tailored advice, guidance, and support through every step of their journey.</p>
               </div>
               <ul className="list-item p_relative clearfix mb_50">
                 <li><a href="/">1. Entering & Leaving From Country <i className="icon-9"></i></a></li>

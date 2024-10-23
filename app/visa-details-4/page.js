@@ -71,7 +71,7 @@ export default function Home() {
                 <h2>E2 Treaty Investor Visa</h2>
                 <p>The E2 Treaty Investor Visa is a non-immigrant visa that allows individuals from certain treaty countries to invest in and actively manage a business within the United States. Designed for individuals looking to start or expand a business in the U.S., this visa offers significant benefits to eligible investors.</p>
             </div>
-            <figure className="image-box"><img src="/assets/images/USAE-2TreatyVisa/000.png" alt="E2 Treaty Investor Visa" /></figure>
+            <figure className="image-box"><img src="/assets/images/USAE-2TreatyVisa/investor-visa-application.jpg" alt="E2 Treaty Investor Visa" /></figure>
             <div className="lower-text">
                 <p>In this guide, we'll explore the eligibility requirements, benefits, and application process for the E2 Visa, a fantastic opportunity for entrepreneurs from countries with which the U.S. maintains a treaty of commerce and navigation.</p>
             </div>

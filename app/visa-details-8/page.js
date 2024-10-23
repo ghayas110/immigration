@@ -73,7 +73,7 @@ export default function Home() {
                     Canada’s Express Entry system is one of the most popular immigration pathways for skilled workers looking to start a new life in Canada. Known for its efficiency and transparency, Express Entry allows individuals and families to secure permanent residency in Canada based on their skills and experience.
                 </p>
             </div>
-            <figure className="image-box"><img src="/assets/images/CanadaExpressEntry/0000.png" alt="Canada Express Entry Visa" /></figure>
+            <figure className="image-box"><img src="/assets/images/CanadaExpressEntry/gh.png" alt="Canada Express Entry Visa" /></figure>
             <div className="lower-text">
                 <p>
                     This guide covers the eligibility criteria, application process, and benefits of the Canada Express Entry Visa, offering a fast route to permanent residency for skilled workers.
