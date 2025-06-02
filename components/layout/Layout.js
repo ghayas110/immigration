@@ -32,11 +32,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleSidebar = () => setSidebar(!isSidebar);
 
     useEffect(() => {
-        const WOW = require('wowjs')
-        window.wow = new WOW.WOW({
-            live: false
-        })
-        window.wow.init()
+    
 
         document.addEventListener("scroll", () => {
             const scrollCheck = window.scrollY > 100
