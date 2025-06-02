@@ -49,7 +49,7 @@ export default function Home() {
                                             <li><Link href="countries-details">United States</Link></li>
                                             <li><Link href="countries-details-2">Germany</Link></li>
                                             <li><Link href="countries-details-3">Canada</Link></li>
-                                     
+                                          <li><Link href="newzeland">New Zealand</Link></li>
                                             <li><Link href="countries-details-6" className="current">Australia</Link></li>
                                         </ul>
                                     </div>

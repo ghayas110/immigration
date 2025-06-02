@@ -60,6 +60,7 @@ export default function Home() {
                                   <div className="sidebar-widget category-widget">
                                       <ul className="category-list clearfix">
                                           <li><Link href="countries-details" className="current">United States</Link></li>
+                                          <li><Link href="newzeland">New Zealand</Link></li>
                                           <li><Link href="countries-details-2">Germany</Link></li>
                                           <li><Link href="countries-details-3">Canada</Link></li>
                                           <li><Link href="countries-details-6">Australia</Link></li>

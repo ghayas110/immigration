@@ -47,6 +47,7 @@ export default function Home() {
                                       <ul className="category-list clearfix">
                                           <li><Link href="countries-details">United States</Link></li>
                                           <li><Link href="countries-details-2">Germany</Link></li>
+                                               <li><Link href="newzeland">New Zealand</Link></li>
                                           <li><Link href="countries-details-3" className="current">Canada</Link></li>
                                           <li><Link href="countries-details-6">Australia</Link></li>
                                       </ul>

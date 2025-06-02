@@ -47,14 +47,19 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                  
                 </li>
                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}>
-                  <Link href="/about-us">About</Link>
+                <Link href="/EB2-NIW">EB2-NIW</Link>
                 
                 </li>
 
-
-                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/coaching">Coaching</Link>
-                 
+    <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}>
+                <Link href="/EB1A">EB1A</Link>
+                
                 </li>
+                <li className={isActive.key == 7 ? "dropdown current" : "dropdown"}>
+                <Link href="/newzeland">New Zealand</Link>
+                
+                </li>
+              
                 <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/countries">Countries</Link>
                  
                 </li>

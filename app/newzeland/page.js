@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
       <>
-          <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Germany">
+          <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="New Zealand">
               {/* countries section */}
               <section className="countries-details p_relative">
                   <div className="auto-container">
@@ -62,16 +62,17 @@ export default function Home() {
                               <div className="countries-sidebar default-sidebar">
                                   <div className="sidebar-widget category-widget">
                                       <ul className="category-list clearfix">
+                                           <li><Link href="newzeland" className="current">New Zealand</Link></li>
                                           <li><Link href="countries-details">United States</Link></li>
-                                          <li><Link href="countries-details-2" className="current">Germany</Link></li>
+                                          {/* <li><Link href="countries-details-2" >New Zealand</Link></li> */}
                                           <li><Link href="countries-details-3">Canada</Link></li>
-                                     <li><Link href="newzeland">New Zealand</Link></li>
+                                     
                                           <li><Link href="countries-details-6">Australia</Link></li>
                                       </ul>
                                   </div>
                                   <div className="sidebar-widget travel-widget">
                                       <div className="widget-content p_relative">
-                                          <figure className="image-box"><img src="assets/images/resource/travel-1.jpg" alt="Travel Pass" /></figure>
+                                          <figure className="image-box"><img src="assets/images/resource/newzeland-2.jpeg" alt="Travel Pass" /></figure>
                                           <div className="content-box">
                                               <h3>Travel Pass</h3>
                                               <ul className="list-item clearfix">
@@ -115,10 +116,10 @@ export default function Home() {
                                                   <a className={activeIndex == 1 ? "nav-link active" : "nav-link"}><h5><i className="icon-52"></i>Immigration</h5></a>
                                               </li>
                                               <li className="nav-item" onClick={() => handleOnClick(2)}>
-                                                  <a className={activeIndex == 2 ? "nav-link active" : "nav-link"}><h5><i className="icon-53"></i>Visitor visas</h5></a>
+                                                  <a className={activeIndex == 2 ? "nav-link active" : "nav-link"}><h5><i className="icon-53"></i>Visitor Visa</h5></a>
                                               </li>
                                               <li className="nav-item" onClick={() => handleOnClick(3)}>
-                                                  <a className={activeIndex == 3 ? "nav-link active" : "nav-link"}><h5><i className="icon-54"></i>Education</h5></a>
+                                                  <a className={activeIndex == 3 ? "nav-link active" : "nav-link"}><h5><i className="icon-54"></i>Work Visa</h5></a>
                                               </li>
                                               <li className="nav-item" onClick={() => handleOnClick(4)}>
                                                   <a className={activeIndex == 4 ? "nav-link active" : "nav-link"}><h5><i className="icon-55"></i>Tourist</h5></a>
@@ -131,18 +132,18 @@ export default function Home() {
                                               <div className="content-box">
                                                   <div className="content-one mb_30">
                                                       <div className="upper-text mb_30">
-                                                          <h2>Immigrate to Germany</h2>
-                                                          <p>Germany offers a range of immigration options, from employment-based visas to family reunification. Whether you are a skilled worker or a family member, we provide guidance on the best pathway for you.</p>
+                                                          <h2>Immigrate to New Zealand</h2>
+                                                          <p>New Zealand offers a range of immigration options, from employment-based visas to family reunification. Whether you are a skilled worker or a family member, we provide guidance on the best pathway for you.</p>
                                                       </div>
                                                       <div className="two-column mb_30">
                                                           <div className="row clearfix">
                                                               <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                                                  <figure className="image-box"><img src="assets/images/resource/countries-13.jpeg" alt="Germany Immigration" /></figure>
+                                                                  <figure className="image-box"><img src="assets/images/resource/newzeland-2.jpeg" alt="New Zealand Immigration" /></figure>
                                                               </div>
                                                               <div className="col-lg-6 col-md-6 col-sm-12 text-column">
                                                                   <div className="text">
-                                                                      <h3>German Immigration Assistance</h3>
-                                                                      <p>Germany is known for its robust economy and high quality of life. We help you navigate through visa applications and residence permits, ensuring a smooth transition to life in Germany.</p>
+                                                                      <h3>New Zealand Immigration Assistance</h3>
+                                                                      <p>New Zealand is known for its robust economy and high quality of life. We help you navigate through visa applications and residence permits, ensuring a smooth transition to life in New Zealand.</p>
                                                                   </div>
                                                               </div>
                                                           </div>
@@ -155,18 +156,18 @@ export default function Home() {
                                               <div className="content-box">
                                                   <div className="content-one mb_30">
                                                       <div className="upper-text mb_30">
-                                                          <h2>Visitor Visas for Germany</h2>
-                                                          <p>Whether you're traveling for leisure or business, Germany offers a variety of visitor visa options. We help you with the entire visa process, from documentation to visa interviews.</p>
+                                                          <h2>Visitor Visas for New Zealand</h2>
+                                                          <p>Whether you're traveling for leisure or business, New Zealand offers a variety of visitor visa options. We help you with the entire visa process, from documentation to visa interviews.</p>
                                                       </div>
                                                       <div className="two-column mb_30">
                                                           <div className="row clearfix">
                                                               <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                                                  <figure className="image-box"><img src="assets/images/resource/countries-14.jpg" alt="Visitor Visa to Germany" /></figure>
+                                                                  <figure className="image-box"><img src="assets/images/resource/newzeland-1.jpeg" alt="Visitor Visa to New Zealand" /></figure>
                                                               </div>
                                                               <div className="col-lg-6 col-md-6 col-sm-12 text-column">
                                                                   <div className="text">
-                                                                      <h3>Your Journey to Germany</h3>
-                                                                      <p>We assist with visitor visa applications, making your trip to Germany as seamless as possible, whether for tourism, business, or family visits.</p>
+                                                                      <h3>Your Journey to New Zealand</h3>
+                                                                      <p>We assist with visitor visa applications, making your trip to New Zealand as seamless as possible, whether for tourism, business, or family visits.</p>
                                                                   </div>
                                                               </div>
                                                           </div>
@@ -179,18 +180,18 @@ export default function Home() {
                                               <div className="content-box">
                                                   <div className="content-one mb_30">
                                                       <div className="upper-text mb_30">
-                                                          <h2>Study in Germany</h2>
-                                                          <p>Germany offers some of the best education opportunities globally, especially in science and engineering. We help you secure your student visa and guide you through the university admission process.</p>
+                                                          <h2> Accredited Employer Work Visa</h2>
+                                                          <p> New Zealand allows skilled workers to immigrate to New Zealand with a job offer from an accredited employer</p>
                                                       </div>
                                                       <div className="two-column mb_30">
                                                           <div className="row clearfix">
                                                               <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                                                  <figure className="image-box"><img src="assets/images/resource/countries-15.jpg" alt="Study in Germany" /></figure>
+                                                                  <figure className="image-box"><img src="assets/images/resource/countries-15.jpg" alt="Accredited Employer Work Visa in New Zealand" /></figure>
                                                               </div>
                                                               <div className="col-lg-6 col-md-6 col-sm-12 text-column">
                                                                   <div className="text">
-                                                                      <h3>Secure Your Future Education in Germany</h3>
-                                                                      <p>We provide comprehensive support to international students looking to study in Germany, including university applications, visa processes, and post-graduation options.</p>
+                                                                      <h3>Secure Your Job in New Zealand</h3>
+                                                                      <p>We offer a secure work visa solution for skilled workers looking to immigrate to New Zealand with a job offer from an accredited employer.</p>
                                                                   </div>
                                                               </div>
                                                           </div>
@@ -203,17 +204,17 @@ export default function Home() {
                                               <div className="content-box">
                                                   <div className="content-one mb_30">
                                                       <div className="upper-text mb_30">
-                                                          <h2>Tourism in Germany</h2>
-                                                          <p>Explore the rich history, culture, and natural beauty of Germany with a tourist visa. We ensure a hassle-free visa process so you can focus on enjoying your trip.</p>
+                                                          <h2>Tourism in New Zealand</h2>
+                                                          <p>Explore the rich history, culture, and natural beauty of New Zealand with a tourist visa. We ensure a hassle-free visa process so you can focus on enjoying your trip.</p>
                                                       </div>
                                                       <div className="two-column mb_30">
                                                           <div className="row clearfix">
                                                               <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                                                  <figure className="image-box"><img src="assets/images/resource/countries-13.jpeg" alt="Tourist Visa to Germany" /></figure>
+                                                                  <figure className="image-box"><img src="assets/images/resource/newzeland.jpg" alt="Tourist Visa to New Zealand" /></figure>
                                                               </div>
                                                               <div className="col-lg-6 col-md-6 col-sm-12 text-column">
                                                                   <div className="text">
-                                                                      <h3>Enjoy Your German Adventure</h3>
+                                                                      <h3>Enjoy Your New Zealand Adventure</h3>
                                                                       <p>Our team helps you navigate the tourist visa application, ensuring you can focus on your travels while we take care of the paperwork.</p>
                                                                   </div>
                                                               </div>

@@ -14,7 +14,7 @@ export default function Home() {
           <div className="col-lg-8 col-md-12 col-sm-12 content-side">
           <div className="blog-details-content">
                             <div className="content-one mb_40">
-                                <figure className="image-box"><img src="assets/images/news/news-10.jpg" alt="" /></figure>
+                                <figure className="image-box"><img src="assets/images/news/news-9.webp" alt="" /></figure>
                                 <ul className="post-info clearfix">
                                     <li><i className="icon-27"></i><Link href="blog-details">Admin</Link></li>
                                     <li><i className="icon-56"></i>Feb 6, 2022 </li>
@@ -35,7 +35,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="content-two mb_40">
-                                <figure className="image-box"><img src="assets/images/news/news-11.jpg" alt="" /></figure>
+                                <figure className="image-box"><img src="assets/images/news/news.webp" alt="" /></figure>
                                 <div className="text">
                                     <h3>Requirements for Citizenship</h3>
                                     <p>Vivamus ac ultricies ex. Donec lacinia lacus libero, sed feugiat diam laoreet eget. Vivamus venenatis turpis lacinia, congue massa in, accumsan orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque vestibulum id risus sit amet faucibus. Vestibulum sodales lacus eros, sed maximus sapien mollis ultrices. In odio mi, scelerisque a libero et, pulvinar pulvinar enim. . </p>

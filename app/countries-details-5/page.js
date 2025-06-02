@@ -67,7 +67,7 @@ export default function Home() {
                                     <li><Link href="countries-details-2" >United Kingdom</Link></li>
                                     <li><Link href="countries-details-3">Canada</Link></li>
                                     <li><Link href="countries-details-4">China</Link></li>
-                                    <li><Link href="countries-details-5" className="current">Bahamas</Link></li>
+                                    {/* <li><Link href="countries-details-5" className="current">Bahamas</Link></li> */}
                                     <li><Link href="countries-details-6">Australia</Link></li>
                                 </ul>
                             </div>

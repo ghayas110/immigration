@@ -17,11 +17,14 @@ export default function Menu() {
                 <li className="dropdown"><Link href="/">Home</Link>
                    
                 </li>
-                <li className="dropdown"><Link href="/about-us">About</Link>
+             
+                    <li className="dropdown"><Link href="/EB2-NIW">EB2-NIW</Link>
                     
                 </li>
-                 
-
+  <li className="dropdown"><Link href="/EB1A">EB 1A</Link>
+                    
+                </li>
+                <li className="dropdown"><Link href="/newzeland">New Zealand</Link>   </li>
                 <li className="dropdown"><Link href="/countries">Countries</Link>
                     <ul> 
                             
@@ -40,8 +43,8 @@ export default function Menu() {
                                                   <li><Link href="visa-details-2" >Australia SubClass 199</Link></li>
                                                   <li><Link href="visa-details-3">Australia SubClass 491</Link></li>  
                                                   <li><Link href="visa-details-4">E2 Treaty Visa</Link></li>
-                                                  <li><Link href="visa-details-5">EB1 A </Link></li>
-                                                  <li><Link href="visa-details-6">EB2 NIW </Link></li>
+                                                
+                                                
                                                   <li><Link href="visa-details-7">UK Innovator Visa </Link></li>
                                                   <li><Link href="visa-details-8" >Canada Express Entry </Link></li>
                                                   <li><Link href="visa-details-9" >Canada Provincial Nominee Program </Link></li>
@@ -50,9 +53,14 @@ export default function Menu() {
                             </ul>
                 </li>
                 {/* Projects */}
-               
+                  <li className="dropdown"><Link href="/about-us">About</Link>
+                    <ul>
+                        <li><Link href="/certification">Certification</Link></li>
+                       <li><Link href="/success-stories">Success Stories</Link></li>
+                    </ul>
+                </li>
                 {/* Blog */}
-           
+                <li><Link href="/blog">Blog</Link></li>
                 {/* Contact */}
                 <li><Link href="/contact">Contact Us</Link></li>
             </ul>

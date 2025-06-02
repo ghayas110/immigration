@@ -892,7 +892,23 @@ img {
 .header-top .search-form .form-group input:focus{
   color: var(--white-color);
 }
-
+/* For a square 180x180px figure, adjust as needed */
+.country-figure {
+  width: 280px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px; /* optional for rounded corners */
+  background: #f8f9fa; /* optional for background */
+}
+.country-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .header-top .search-form .form-group button{
   position: absolute;
   top: 15px;
