@@ -13,7 +13,7 @@ export default function Footer1() {
                             <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div className="footer-widget logo-widget">
                                     <figure className="footer-logo">
-                                        <Link href="/"><img src="assets/images/footer-logo.png" alt="Footer Logo" /></Link>
+                                        <Link href="/"><img src="/assets/images/footer-logo.png" alt="Footer Logo" /></Link>
                                     </figure>
                                     <div className="text mb_25">
                                         <p>Your trusted partner in immigration and consultancy services, helping clients achieve their dreams of relocating overseas.</p>

@@ -39,7 +39,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
       <div className="outer-box clearfix">
         <div className="logo-box">
           <figure className="logo"><Link href="/">
-          <img src="assets/images/logo.png" alt="" width="128" height="44" />
+          <img src="/assets/images/logo.png" alt="" width="128" height="44" />
                     </Link></figure>
         </div>
         <div className="nav-outer">
@@ -57,7 +57,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
             </nav>
           </div>
           <div className="support-box">
-            <figure className="image-box"><img src="assets/images/shape/h.png" alt="" /></figure>
+            <figure className="image-box"><img src="/assets/images/shape/h.png" alt="" /></figure>
             <span>Enquiries</span>
             <Link href="tel:+923179650314">+92 317 9650314</Link>
           </div>

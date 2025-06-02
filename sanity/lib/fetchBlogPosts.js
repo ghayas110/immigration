@@ -19,3 +19,19 @@ export async function fetchBlogPosts() {
   `;
   return await client.fetch(query);
 }
+export async function fetchBlogPost(title) {
+  const query = `
+    *[_type == "blogPost" && title match $title]{
+      _id,
+      title,
+      slug,
+      mainImage{asset->{url}, alt},
+      publishedAt,
+      excerpt,
+      "author": author->name
+    }
+  `;
+  // The match operator is case-insensitive and supports wildcards
+  const params = { title: `*${title}*` };
+  return await client.fetch(query, params);
+}
