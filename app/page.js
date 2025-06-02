@@ -9,7 +9,7 @@ import Countries1 from "@/components/sections/home4/Countries1"
 import News from "@/components/sections/home4/News"
 import Dream from "@/components/sections/home3/Dream"
 import Coaching from "@/components/sections/home3/Coaching"
-import Video from "@/components/sections/home2/Video"
+
 // import PortfolioSlider from "@/components/sections/home1/Portfolio"
 
 export default function Home() {
